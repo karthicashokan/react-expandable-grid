@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       gridData={dataString}
       detailHeight={300}
       ExpandedDetail_image_size={300}
-      cellSize={200}
+      cellSize={250}
       ExpandedDetail_closeX_bool={false}
     />,
     document.querySelector('#app')

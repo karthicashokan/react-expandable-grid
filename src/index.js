@@ -389,22 +389,22 @@ var data = [
 
 ReactExpandableGrid.defaultProps = {
   gridData: JSON.stringify(data),
-  cellSize: 200,
+  cellSize: 250,
   cellMargin: 25,
   bgColor: '#f2f2f2',
   detailWidth: '100%',
-  detailHeight: 200,
+  detailHeight: 300,
   detailBackgroundColor: '#D9D9D9',
   ExpandedDetail_right_width: '60%',
   ExpandedDetail_left_width: '40%',
-  ExpandedDetail_image_size: 200,
+  ExpandedDetail_image_size: 300,
   ExpandedDetail_description_bgColor: '#D9D9D9',
   ExpandedDetail_title_bgColor: '#D9D9D9',
   ExpandedDetail_img_bgColor: '#D9D9D9',
   ExpandedDetail_link_text: '→ Link',
   ExpandedDetail_font_color: '#434343',
   ExpandedDetail_closeX_bool: true,
-  show_mobile_style_from_width: 600
+  show_mobile_style_from_width: 600,
 }
 
 export default ReactExpandableGrid

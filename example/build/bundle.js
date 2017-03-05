@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "17edaacfdefb8409db52"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "fe1cc001cab1617865de"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -619,7 +619,7 @@
 	    gridData: dataString,
 	    detailHeight: 300,
 	    ExpandedDetail_image_size: 300,
-	    cellSize: 200,
+	    cellSize: 250,
 	    ExpandedDetail_closeX_bool: false
 	  }), document.querySelector('#app'));
 	});
@@ -22948,15 +22948,15 @@
 
 	ReactExpandableGrid.defaultProps = {
 	  gridData: JSON.stringify(data),
-	  cellSize: 200,
+	  cellSize: 250,
 	  cellMargin: 25,
 	  bgColor: '#f2f2f2',
 	  detailWidth: '100%',
-	  detailHeight: 200,
+	  detailHeight: 300,
 	  detailBackgroundColor: '#D9D9D9',
 	  ExpandedDetail_right_width: '60%',
 	  ExpandedDetail_left_width: '40%',
-	  ExpandedDetail_image_size: 200,
+	  ExpandedDetail_image_size: 300,
 	  ExpandedDetail_description_bgColor: '#D9D9D9',
 	  ExpandedDetail_title_bgColor: '#D9D9D9',
 	  ExpandedDetail_img_bgColor: '#D9D9D9',
