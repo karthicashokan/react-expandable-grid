@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "17edaacfdefb8409db52"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "19977a5a4ea4a0194f34"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -22591,6 +22591,7 @@
 	  }, {
 	    key: 'makeItMobileFriendly',
 	    value: function makeItMobileFriendly() {
+	      alert(window.innerWidth);
 	      var leftPanel = document.getElementById('ExpandedDetail_left');
 	      var rightPanel = document.getElementById('ExpandedDetail_right');
 	      if (window.innerWidth < this.props.show_mobile_style_from_width) {
