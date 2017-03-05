@@ -71,7 +71,7 @@ var ReactGridDetailExpansion = require('react-expandable-grid');
 | show_mobile_style_from_width       | number   | Responsive design: Uses mobile optimization from this width      |         |
 
 
-![Screen Shot](https://github.com/karthicashokan/react-expandable-grid/blob/master/screenshot.png)
+![Screen Shot](https://github.com/karthicashokan/react-expandable-grid/blob/master/react-expandable-grid.png)
 
 
 ### Notes
