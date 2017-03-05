@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* -------------------------------------- To edit elements of this component -------------------------------------- */
+
+/* Link */
+#ExpandedDetailDescriptionLink {
+
+}
+
+/* Close Button */
+#ExpandedDetail_close {
+	content: '';
+}
+
+/* Title for the expanded detail */
+.ExpandedDetailTitle {
+	display: block;
+    font-size: 16px;
+    margin-top: 10px;   
+    font-weight: bold;
+}
+
+/* Text/Description for the expanded detail */
+.ExpandedDetailDescription {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+/* -------------------------------------- To make the links and close button look nice -------------------------------------- */
+
+#ExpandedDetail_close {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+#ExpandedDetail_close::before,
+#ExpandedDetail_close::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: #888;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+#ExpandedDetail_close::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+#ExpandedDetail_close:hover::before,
+#ExpandedDetail_close:hover::after {
+	background: #333;
+}
+
+
+/* unvisited link */
+#ExpandedDetailDescriptionLink {
+    color: #008ed7;
+    border: 2px solid #008ed7;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* visited link */
+#ExpandedDetailDescriptionLink:visited {
+
+}
+
+/* mouse over link */
+#ExpandedDetailDescriptionLink:hover {
+    color: white;
+    background: #008ed7;
+}
+
+/* selected link */
+#ExpandedDetailDescriptionLink:active {
+    color: white;
+    background: #008ed7;
+    border: 2px solid white;
+}

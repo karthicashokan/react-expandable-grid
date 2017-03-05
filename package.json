@@ -1,0 +1,45 @@
+{
+  "name": "react-expandable-grid",
+  "version": "1.0.2",
+  "description": "Image grid with an expanding detail view",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthicashokan/react-expandable-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karthicashokan/react-expandable-grid.git"
+  },
+  "homepage": "https://github.com/karthicashokan/react-expandable-grid.git",
+  "scripts": {
+    "start": "./node_modules/.bin/babel src --watch --out-dir lib",
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "test": "mocha --compilers js:babel/register",
+    "prepublish": "rm -rf lib && npm run build"
+  },
+  "keywords": [
+   "react",
+    "gallery",
+    "grid",
+    "portfolio",
+    "expandable",
+    "preview",
+    "thumbnail"
+  ],
+  "author": "Karthic Ashokan <karthicashokan@icloud.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "mocha": "^2.3.3",
+    "react": "^15.1.0",
+    "react-addons-test-utils": "^15.0.2",
+    "react-dom": "^15.1.0"
+  }
+}
