@@ -15,18 +15,20 @@ To build the examples locally, run:
 
 ```
 npm install
-run build
-run web
+npm run build
+cd example
+npm install
+npm start
 ```
 
-Then open [`localhost:8000`](http://localhost:8080) in a browser.
+Then open [`localhost:3000`](http://localhost:3000) in a browser.
 
 
 ## Installation
 
-The easiest way to use react-expandable-grid is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
+The easiest way to use react-expandable-grid is to install it from NPM and include it in your own React build process.
 
-You can also use the standalone build by including `dist/react-expandable-grid.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
+You can also use the standalone build by including `src/react-expandable-grid.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
 npm install react-expandable-grid --save
