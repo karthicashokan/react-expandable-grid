@@ -41,6 +41,13 @@ npm install react-expandable-grid --save
 ```
 var ReactGridDetailExpansion = require('react-expandable-grid');
 
+var data = [
+{'img': '<url>', 'link': '<url>', 'title': '<text>', 'description': '<text>'},
+{'img': '<url>', 'link': '<url>', 'title': '<text>', 'description': '<text>'}
+]
+
+var data_string = JSON.stringify(data)
+
 <ReactGridDetailExpansion
                     gridData={data_string}
                     detailHeight={300}
