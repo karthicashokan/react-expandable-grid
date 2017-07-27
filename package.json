@@ -1,6 +1,6 @@
 {
   "name": "react-expandable-grid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Image grid with an expanding detail view",
   "main": "lib/index.js",
   "repository": {

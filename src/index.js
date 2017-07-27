@@ -28,6 +28,7 @@ class SingleGridCell extends React.Component {
       height: this.props.cellSize,
       display: 'inline-block',
       margin: this.props.cellMargin,
+      marginBottom: 25,
       position: 'relative'
     }
 
