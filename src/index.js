@@ -1,8 +1,9 @@
 /* eslint react/prop-types: 0 */
 /* eslint react/jsx-no-bind: 0 */
 
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component } from 'react';
+
+import PropTypes from 'prop-types';
 
 class SingleGridCell extends React.Component {
 
@@ -354,22 +355,22 @@ class ReactExpandableGrid extends React.Component {
 }
 
 ReactExpandableGrid.propTypes = {
-  gridData: React.PropTypes.string,
-  cellSize: React.PropTypes.number,
-  cellMargin: React.PropTypes.number,
-  bgColor: React.PropTypes.string,
-  detailWidth: React.PropTypes.string, // in %
-  detailHeight: React.PropTypes.number,
-  detailBackgroundColor: React.PropTypes.string,
-  ExpandedDetail_right_width: React.PropTypes.string, // in %
-  ExpandedDetail_left_width: React.PropTypes.string, // in %
-  ExpandedDetail_description_bgColor: React.PropTypes.string,
-  ExpandedDetail_title_bgColor: React.PropTypes.string,
-  ExpandedDetail_img_bgColor: React.PropTypes.string,
-  ExpandedDetail_link_text: React.PropTypes.string,
-  ExpandedDetail_font_color: React.PropTypes.string,
-  ExpandedDetail_closeX_bool: React.PropTypes.bool,
-  show_mobile_style_from_width: React.PropTypes.number
+  gridData: PropTypes.string,
+  cellSize: PropTypes.number,
+  cellMargin: PropTypes.number,
+  bgColor: PropTypes.string,
+  detailWidth: PropTypes.string, // in %
+  detailHeight: PropTypes.number,
+  detailBackgroundColor: PropTypes.string,
+  ExpandedDetail_right_width: PropTypes.string, // in %
+  ExpandedDetail_left_width: PropTypes.string, // in %
+  ExpandedDetail_description_bgColor: PropTypes.string,
+  ExpandedDetail_title_bgColor: PropTypes.string,
+  ExpandedDetail_img_bgColor: PropTypes.string,
+  ExpandedDetail_link_text: PropTypes.string,
+  ExpandedDetail_font_color: PropTypes.string,
+  ExpandedDetail_closeX_bool: PropTypes.bool,
+  show_mobile_style_from_width: PropTypes.number
 }
 
 var data = [
